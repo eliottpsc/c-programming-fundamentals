@@ -6,17 +6,17 @@
 /*   By: eruffin <eruffin@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/04 12:04:26 by eruffin           #+#    #+#             */
-/*   Updated: 2026/03/04 12:29:47 by eruffin          ###   ########.fr       */
+/*   Updated: 2026/03/04 16:45:38 by eruffin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_is_negative(signed int n);
+void	ft_is_negative(int n);
 
-void	ft_is_negative(signed int n)
+void	ft_is_negative(int n)
 {
-	signed int	sign;
+	int	sign;
 
 	sign = 'P';
 	if (n < 0)
